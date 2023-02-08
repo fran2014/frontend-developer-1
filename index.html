@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!-- Google Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
- 
-    <style>
-        :root {
-        --white: #FFFFFF;
-        --black: #000000;
-        --very-light-pink: #C7C7C7;
-        --text-input-field: #F7F7F7;
-        --hospital-green: #ACD9B2;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Yard Sale: Tienda Online</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./icons/icon_menu.svg" alt="menu" class="menu" />
 
-    body {
-        font-family: 'Quicksand', sans-serif;
-    }
-    </style>
+      <div class="navbar-left">
+        <img src="./logos/logo_yard_sale.svg" alt="Logo" class="logo" />
 
-</head>
-<body>
-    
-</body>
+        <ul>
+          <li>
+            <a href="/">All</a>
+          </li>
+          <li>
+            <a href="/">Clothes</a>
+          </li>
+          <li>
+            <a href="/">Electronics</a>
+          </li>
+          <li>
+            <a href="/">Furniture</a>
+          </li>
+          <li>
+            <a href="/">Toys</a>
+          </li>
+          <li>
+            <a href="/">Others</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email">platzi@example.com</li>
+          <li class="navbar-shopping-cart">
+            <img src="./icons/icon_shopping_cart.svg" alt="shopping card" />
+            <div>2</div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="menu" class="desktop-menu inactive">
+        <ul>
+          <li>
+            <a href="/" class="title"> My orders</a>
+          </li>
+
+          <li>
+            <a href="/">My account</a>
+          </li>
+
+          <li>
+            <a href="/">Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <script src="main.js"></script>
+  </body>
 </html>
